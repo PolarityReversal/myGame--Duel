@@ -1,0 +1,33 @@
+Welcome to the duel.
+
+Here are the rules:
+
+You (Player A) will compete against the computer (Player B).
+
+You each hold a different amount of money.
+
+From a deck of 50 cards, consisting of A1-10, B1-10, C1-10, D1-10, E1-10, 3 public cards will first be randomly drawn, both players do not know what the public cards are.
+
+Then, both players each get two hand cards from the remaining 47 cards, and then the game begins in three rounds.
+
+The rule of victory is: the player with the highest number of cards with the same number and different letters wins, otherwise, it's a draw.
+
+In the first round, both sides bet a third of the other's money, then reveal the first public card.
+
+In the second round, both sides bet half of the money of the party with more money, then reveal the second public card.
+
+In the third round, both parties bet all their remaining money, then reveal the third public card.
+
+If a player does not have enough money to bet or is left with no money after betting in the first or second round, the player bets all their remaining money, no further public cards are revealed after revealing the public card of the round, and the two players directly compare the already revealed public cards and hand cards to determine the winner.
+
+For example:
+
+Public cards A1, B10, E5. Player A's hand cards are B1, C10. Player B's hand cards are A5, D10.
+
+If the winner is determined in the first round, Player A holds two '1' cards, Player A wins.
+
+If the winner is determined in the second round, Player A holds two '1' cards and two '10' cards. At the same time, Player B holds two '10' cards, it's a draw.
+
+If the winner is determined in the third round, Player A holds two '1' cards and two '10' cards. At the same time, Player B holds two '10' cards and two '5' cards, it's a draw.
+
+You can "showdown" at any round.
